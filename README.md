@@ -1,32 +1,33 @@
-# Embedded Sensor Data Acquisition (C)
+# C Basics – Product Calculator
 
-![Language](https://img.shields.io/badge/language-C-blue)
-![Platform](https://img.shields.io/badge/platform-Embedded%20Systems-lightgrey)
-![Course](https://img.shields.io/badge/course-BME%204503C-orange)
-![Status](https://img.shields.io/badge/status-Complete-success)
+![Language](https://img.shields.io/badge/Language-C-blue)
+![Level](https://img.shields.io/badge/Level-Beginner-green)
+![Course](https://img.shields.io/badge/Course-EEL%202880-orange)
 
-## Overview
-This project implements a C-based embedded program for sensor data acquisition and processing. The code reads input signals from hardware sensors, performs basic computations, and outputs results suitable for validation and analysis in a biomedical engineering context.
+This repository contains a basic C program that calculates the product of two integers entered by the user. The program demonstrates fundamental C concepts including user input, function calls, global variables, and formatted output with date and time.
 
-The project emphasizes low-level programming, hardware interaction, and structured data handling commonly used in embedded and medical device systems.
+---
 
-## Files
-- `main.c` — Core C program implementing sensor reading, processing logic, and output.
-- `Code+Output` — Screenshot showing compiled code execution and program output.
-- `README.md` — Project documentation.
+## Project Overview
+
+The program prompts the user to enter two integers between 1 and 100, computes their product using a separate function, and displays the result. It also prints the programmer’s name and the current date/time using the C standard time library.
+
+This assignment was completed as part of **EEL 2880** and serves as an introduction to structured programming in C.
+
+---
 
 ## Tools & Technologies
-- C programming language
-- Embedded systems development environment
-- Microcontroller-based data acquisition
-- Serial output / debugging interface
 
-## Key Concepts Demonstrated
-- Low-level C programming
-- Sensor data acquisition
-- Signal processing logic
-- Embedded system workflows
-- Biomedical instrumentation fundamentals
+- **C Programming Language**
+- **Standard Libraries**
+  - `stdio.h`
+  - `time.h`
+- Command-line compilation and execution
 
-## Notes
-This repository contains academic coursework completed for **BME 4503C** and is intended for educational and portfolio demonstration purposes.
+---
+
+## How to Run
+
+```bash
+gcc main.c -o product
+./product
